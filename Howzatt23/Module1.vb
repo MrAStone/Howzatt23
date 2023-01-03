@@ -31,6 +31,7 @@
             If score > max Then
                 max = score
                 Console.WriteLine("After {0} games, a new top score of {1} at time of {2}", innings.ToString("#,#"), score, Now.ToString("h:mm:ss tt"))
+
             End If
         Loop
     End Sub
